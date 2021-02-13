@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homework №1</title>
+    <meta charset="utf8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style/main.css"/>
+  </head>
+
+  <body>
+    <div class="technology">
+      <p>
+        <strong>Это экспериментальная технология</strong> <br />Так как
+        спецификация этой технологии ещё не стабилизировалась, смотрите
+        <a href="www.google.com">таблицу совместимости</a> по поводу
+        использования в различных браузерах. Также заметьте, что синтаксис и
+        поведение экспериментальной технологии может измениться в будущих
+        версиях браузеров, вслед за изменениями спецификации.
+      </p>
+    </div>
+    <div class="note">
+      <p>
+        <strong>Примечание использования: </strong>Этот элемент был удален из
+        HTML5 (W3C) спецификации, но до сих пор остается в спецификации WHATWG.
+        Он частично встроен в большинство браузеров, хотя бы поэтому врядли
+        уйдет. Поскольку схематический алгоритм не реализован ни в одном
+        брузере, семантика тега <code>&lt;hgroup&gt;</code>
+        на практике реализована только теоретически. Спецификация HTML5 (W3C) дает совет как обозначать
+        <a href="www.google.com" class="external">подзаголовки, альтернативные заголовки и слоганы</a>.
+      </p>
+    </div>
+    <div class="text">
+      <p>
+        HTML <code>&lt;hgroup&gt;</code> Элемент (HTML Headings Group Element -
+        Элемент Группы Заголовков HTML) представляет заголовок раздела. Он
+        определяет один заголовок, который участвует в cхеме документа как
+        заголовок явно или неявно заданного раздела, к которому он принадлежит.
+      </p>
+      <p>
+        Собственно текст для схематического алгоритма - это текст первого
+        элемента заголовка HTML наивысшего ранга (т. Е. Первый
+        <a href="www.google.com"><code>&lt;h1&gt;</code></a>,
+        <a href="www.google.com"><code>&lt;h2&gt;</code></a>,
+        <a href="www.google.com">h3</a>,
+        <a href="www.google.com">h4</a>,
+        <a href="www.google.com">h5</a>или
+        <a href="www.google.com">h6</a>
+        с наименьшим числом потомков), а rank - уровень этого элемента заголовка HTML.
+      </p>
+      <p>
+        Поэтому этот элемент группирует несколько заголовков, внося лишь
+        основной текст в план документа. Он позволяет связывать вторичные
+        заголовки, такие как подзаголовки, альтернативные заголовки или даже
+        теги, с основным заголовком, без загрязнения структуры документа.
+      </p>
+    </div>
+    <table class="internals">
+      <tbody>
+        <tr>
+          <th><p>Категория информации</p></th>
+          <td>
+            <a href="www.google.com">Flow content</a>, heading content, palpable content.
+          </td>
+        </tr>
+        <tr>
+          <th>Permitted content</th>
+          <td>
+            One or more
+            <a href="www.google.com"><code>&lt;h1&gt;</code></a>, 
+            <a href="www.google.com"><code>&lt;h2&gt;</code></a>, 
+            <a href="www.google.com"><code>&lt;h3&gt;</code></a>, 
+            <a href="www.google.com"><code>&lt;h4&gt;</code></a>, 
+            <a href="www.google.com"><code>&lt;h5&gt;</code></a>, and/or 
+            <a href="www.google.com"><code>&lt;h6&gt;</code></a>.
+          </td>
+        </tr>
+        <tr>
+          <th>Tag omission</th>
+          <td>Нет, открывающий и закрывающий теги обязательны.</td>
+        </tr>
+        <tr>
+          <th>Permitted parent elements</th>
+          <td>
+            Any element that accepts
+            <a href="www.google.com">flow content</a>.
+          </td>
+        </tr>
+        <tr>
+          <th>DOM interface</th>
+          <td>
+            <a href="www.google.com"><code>HTMLElement</code></a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="title">
+      <a href="www.google.com"><h1>Атрибуты</h1></a>
+      <p>
+        This element only includes the
+        <a href="www.google.com"> global attributes.</a>
+      </p>
+      <a href="www.google.com"><h1>Примеры</h1></a>
+    </div>
+    <div class="example">
+      <code>&lt;hgroup&gt;</code>
+      <br>
+      <code> &#160;&lt;h1&gt;Главный заголовок&lt;/h1&gt;</code>
+      <br>
+      <code> &#160;&lt;h2&gt;Вторичный заголовок&lt;/h2&gt;</code>
+      <br>
+      <code>&lt;/hgroup&gt;</code>
+    </div>
+    <div class="title">
+      <a href="www.google.com"><h1>Совместимость браузеров</h1></a>
+    </div>
+    <div class="notice">
+      <strong>
+        <a href="www.google.com">We're converting our compatibility data into a machine-readable JSON format</a>
+      </strong>. 
+      This compatibility table still uses the old format, because we haven't
+      yet converted the data it contains.
+      <strong>
+        <a href="www.google.com">Find out how you can help!</a>
+      </strong>
+    </div>
+    <div class="list">
+      <ul>
+        <li>Настольные</li>
+        <li>Мобильные</li>
+      </ul>
+    </div>
+    <table class="pc">
+      <tbody>
+        <tr>
+          <th>Свойство</th>
+          <th>Chrome</th>
+          <th>Firefox (Gecko)</th>
+          <th>Internet Explorer</th>
+          <th>Opera</th>
+          <th>Safari</th>
+        </tr>
+        <tr>
+          <td>Basic support</td>
+          <td>5</td>
+          <td><a href="www.google.com">4.0</a> (2.0)</td>
+          <td>9.0</td>
+          <td>11.10</td>
+          <td>4.1</td>
+        </tr>
+      </tbody>
+    </table>
+    <table class="pc">
+      <tbody>
+        <tr>
+          <th>Свойство</th>
+          <th>Android</th>
+          <th>Firefox Mobile (Gecko)</th>
+          <th>IE Mobile</th>
+          <th>Opera Mobile</th>
+          <th>Safari Mobile</th>
+        </tr>
+        <tr>
+          <td>Basic support</td>
+          <td>2.2</td>
+          <td>4.0 (2.0)</td>
+          <td>9.0</td>
+          <td>11.0</td>
+          <td>5.0</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="title">
+      <a href="www.google.com"><h1>Смотри также</h1></a>
+    </div>
+    <div class="end">
+      <ul>
+        <li>
+          Другие элементы, связанные с разделом:
+          <a href="www.google.com"><code>&lt;body&gt;</code></a>,
+          <a href="www.google.com"><code>&lt;article&gt;</code></a>,
+          <a href="www.google.com"><code>&lt;section&gt;</code></a>,
+          <a href="www.google.com"><code>&lt;aside&gt;</code></a>, 
+          <a href="www.google.com"><code>&lt;h1&gt;</code></a>, 
+          <a href="www.google.com"><code>&lt;h2&gt;</code></a>, 
+          <a href="www.google.com"><code>&lt;h3&gt;</code></a>, 
+          <a href="www.google.com"><code>&lt;h4&gt;</code></a>, 
+          <a href="www.google.com"><code>&lt;h5&gt;</code></a>, 
+          <a href="www.google.com"><code>&lt;h6&gt;</code></a>, 
+          <a href="www.google.com"><code>&lt;nav&gt;</code></a>,
+          <a href="www.google.com"><code>&lt;header&gt;</code></a>,
+          <a href="www.google.com"><code>&lt;footer&gt;</code></a>,
+          <a href="www.google.com"><code>&lt;address&gt;</code></a>;
+        </li>
+        <li>
+          <a href="www.google.com">Sections and outlines of an HTML5 document</a>.
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
