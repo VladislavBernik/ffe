@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homework №3</title>
+    <meta charset="utf8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style/main.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="logo">
+        <h1>Logo</h1>
+      </div>
+      <div class="menu">
+        <nav class="navi">
+          <ul>
+            <li>
+              <a href="www.google.com"> Articles </a>
+            </li>
+            <li>
+              <a href="www.google.com"> Videos </a>
+            </li>
+            <li>
+              <a href="www.google.com"> Almanac </a>
+            </li>
+            <li>
+              <a href="www.google.com"> Newsletter </a>
+            </li>
+            <li>
+              <a href="www.google.com"> Guides </a>
+            </li>
+            <li>
+              <a href="www.google.com"> Books </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="search">
+          <a href="www.google.com"
+            ><img
+              src="data:image/png;base64,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"
+              width="30"
+              height="30"
+          /></a>
+        </div>
+      </div>
+    </header>
+    <div class="page">
+      <h1>Lorem Ipsum</h1>
+      <div class="introduction">
+        <div class="intro">
+          <p>
+            Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
+            латинице с начала XVI века. В то время некий безымянный печатник
+            создал большую коллекцию размеров и форм шрифтов, используя Lorem
+            Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил
+            без заметных изменений пять веков, но и перешагнул в электронный
+            дизайн. Его популяризации в новое время послужили публикация листов
+            Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее
+            время, программы электронной вёрстки типа Aldus PageMaker, в
+            шаблонах которых используется Lorem Ipsum.
+          </p>
+        </div>
+        <div class="intro"></div>
+      </div>
+      <div class="main-info">
+        <div class="info">
+          <h3>Что такое Lorem Ipsum?</h3>
+          <p>
+            Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
+            латинице с начала XVI века. В то время некий безымянный печатник
+            создал большую коллекцию размеров и форм шрифтов, используя Lorem
+            Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил
+            без заметных изменений пять веков, но и перешагнул в электронный
+            дизайн. Его популяризации в новое время послужили публикация листов
+            Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее
+            время, программы электронной вёрстки типа Aldus PageMaker, в
+            шаблонах которых используется Lorem Ipsum.
+          </p>
+          <h3>Почему он используется?</h3>
+          <p>
+            Давно выяснено, что при оценке дизайна и композиции читаемый текст
+            мешает сосредоточиться. Lorem Ipsum используют потому, что тот
+            обеспечивает более или менее стандартное заполнение шаблона, а также
+            реальное распределение букв и пробелов в абзацах, которое не
+            получается при простой дубликации "Здесь ваш текст.. Здесь ваш
+            текст.. Здесь ваш текст.." Многие программы электронной вёрстки и
+            редакторы HTML используют Lorem Ipsum в качестве текста по
+            умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу
+            показывает, как много веб-страниц всё ещё дожидаются своего
+            настоящего рождения. За прошедшие годы текст Lorem Ipsum получил
+            много версий. Некоторые версии появились по ошибке, некоторые -
+            намеренно (например, юмористические варианты).
+          </p>
+        </div>
+        <div class="info">
+          <h3>Откуда он появился?</h3>
+          <p>
+            Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский
+            набор слов, но это не совсем так. Его корни уходят в один фрагмент
+            классической латыни 45 года н.э., то есть более двух тысячелетий
+            назад. Ричард МакКлинток, профессор латыни из колледжа
+            Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в
+            Lorem Ipsum, "consectetur", и занялся его поисками в классической
+            латинской литературе. В результате он нашёл неоспоримый
+            первоисточник Lorem Ipsum в разделах 1.10.32 и 1.10.33 книги "de
+            Finibus Bonorum et Malorum" ("О пределах добра и зла"), написанной
+            Цицероном в 45 году н.э. Этот трактат по теории этики был очень
+            популярен в эпоху Возрождения. Первая строка Lorem Ipsum, "Lorem
+            ipsum dolor sit amet..", происходит от одной из строк в разделе
+            1.10.32 Классический текст Lorem Ipsum, используемый с XVI века,
+            приведён ниже. Также даны разделы 1.10.32 и 1.10.33 "de Finibus
+            Bonorum et Malorum" Цицерона и их английский перевод, сделанный H.
+            Rackham, 1914 год.
+          </p>
+          <h3>Где его взять?</h3>
+          <p>
+            Есть много вариантов Lorem Ipsum, но большинство из них имеет не
+            всегда приемлемые модификации, например, юмористические вставки или
+            слова, которые даже отдалённо не напоминают латынь. Если вам нужен
+            Lorem Ipsum для серьёзного проекта, вы наверняка не хотите
+            какой-нибудь шутки, скрытой в середине абзаца. Также все другие
+            известные генераторы Lorem Ipsum используют один и тот же текст,
+            который они просто повторяют, пока не достигнут нужный объём. Это
+            делает предлагаемый здесь генератор единственным настоящим Lorem
+            Ipsum генератором. Он использует словарь из более чем 200 латинских
+            слов, а также набор моделей предложений. В результате
+            сгенерированный Lorem Ipsum выглядит правдоподобно, не имеет
+            повторяющихся абзацей или "невозможных" слов.
+          </p>
+        </div>
+      </div>
+      <p>Some information</p>
+      <ul>
+        <li>
+          (new) means the recent syntax from the specification (e.g.
+          <code>display: flex;</code>)
+        </li>
+        <li>
+          (tweener) means an odd unofficial syntax from 2011 (e.g.
+          <code>display: flexbox;</code>)
+        </li>
+        <li>
+          (old) means the old syntax from 2009 (e.g.
+          <code>display: box;</code>)
+        </li>
+      </ul>
+      <table class="table">
+        <tr>
+          <th>Chrome</th>
+          <th>Safari</th>
+          <th>Firefox</th>
+          <th>Opera</th>
+          <th>IE</th>
+          <th>Edge</th>
+          <th>Android</th>
+          <th>iOS</th>
+        </tr>
+        <tr>
+          <td>20- (old)<br>21+ (new)</td>
+          <td>3.1+ (old)<br>6.1+ (new)</td>
+          <td>2-21 (old)<br>22+ (new)</td>
+          <td>12.1+ (new)</td>
+          <td>10 (tweener)<br>11+ (new)</td>
+          <td>17+ (new)</td>
+          <td>2.1+ (old)<br>4.4+ (new)</td>
+          <td>3.2+ (old)<br>7.1+ (new)</td>
+        </tr>
+      </table>
+      <p>Some information</p>
+    </div>
+  </body>
+</html>
