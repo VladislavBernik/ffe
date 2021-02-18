@@ -31,6 +31,8 @@ nav{
 .search{
   display: flex;
   align-items: center;
+  position: relative;
+  left: 1000px;
 }
 .introduction{
   display: flex;
