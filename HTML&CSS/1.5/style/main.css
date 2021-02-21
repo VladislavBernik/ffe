@@ -56,7 +56,7 @@
   flex-wrap: wrap;
 }
 .red-text {
-  color: red;;
+  color: red;
 }
 .gold-text {
   color: #ffd700;
@@ -94,44 +94,44 @@
   justify-content: space-around;
   background: #f5f5dc;
 }
-.second{
+.second {
   display: flex;
   justify-content: space-around;
   background: #f5f5dc;
 }
-.second img{
+.second img {
   border: 3px solid white;
   width: 275px;
   height: 183px;
 }
-.third{
+.third {
   display: flex;
   justify-content: space-around;
   background: #f5f5dc;
 }
-.part{
+.part {
   margin-left: 100px;
 }
-.pictures{
+.pictures {
   display: flex;
   justify-content: space-around;
 }
-.footer{
+.footer {
   display: flex;
   background: #0a0a50;
   padding: 10px 50px 10px 50px;
   color: white;
   justify-content: space-around;
 }
-.info a{
-    color: white;
-    text-decoration: none;
-}
-.contact-1 a{
+.info a {
   color: white;
   text-decoration: none;
 }
-.contact-2 a{
+.contact-1 a {
+  color: white;
+  text-decoration: none;
+}
+.contact-2 a {
   color: white;
   text-decoration: none;
 }
