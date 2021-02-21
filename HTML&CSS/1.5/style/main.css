@@ -1,0 +1,137 @@
+.header {
+  display: flex;
+  flex-flow: row;
+  background: #dcdcdc;
+}
+.logo {
+  display: flex;
+  width: 200px;
+  height: 95px;
+  padding: 5px 0 20px 170px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  padding: 0 0 10px 860px;
+}
+.search a {
+  font-size: 130%;
+  color: #fafb4f;
+  text-decoration: none;
+}
+.search > a > img {
+  width: 30px;
+  height: 30px;
+}
+.form-search {
+  margin: 25px 0 0 65px;
+}
+#search {
+  width: 330px;
+  height: 40px;
+  border-radius: 10px;
+}
+.menu {
+  display: flex;
+  background: #0a0a50;
+  align-items: center;
+  height: 85px;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 150%;
+  padding: 0 33px 0 25px;
+}
+.menu img {
+  width: 70px;
+  height: 40px;
+  padding-left: 150px;
+}
+.main {
+  display: flex;
+  background: #f5f5dc;
+  justify-content: space-around;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+.red-text {
+  color: red;;
+}
+.gold-text {
+  color: #ffd700;
+}
+.left-column {
+  font-size: 250%;
+}
+.right-column {
+  font-size: 250%;
+}
+#adress {
+  width: 470px;
+  border-radius: 10px;
+  font-size: 0.7em;
+}
+#dish {
+  border-radius: 10px;
+  width: 400px;
+  font-size: 0.7em;
+}
+.form-dish {
+  margin-top: 15px;
+}
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+.step {
+  margin-right: 1300px;
+  font-size: 2.5em;
+}
+.first {
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-around;
+  background: #f5f5dc;
+}
+.second{
+  display: flex;
+  justify-content: space-around;
+  background: #f5f5dc;
+}
+.second img{
+  border: 3px solid white;
+  width: 275px;
+  height: 183px;
+}
+.third{
+  display: flex;
+  justify-content: space-around;
+  background: #f5f5dc;
+}
+.part{
+  margin-left: 100px;
+}
+.pictures{
+  display: flex;
+  justify-content: space-around;
+}
+.footer{
+  display: flex;
+  background: #0a0a50;
+  padding: 10px 50px 10px 50px;
+  color: white;
+  justify-content: space-around;
+}
+.info a{
+    color: white;
+    text-decoration: none;
+}
+.contact-1 a{
+  color: white;
+  text-decoration: none;
+}
+.contact-2 a{
+  color: white;
+  text-decoration: none;
+}
