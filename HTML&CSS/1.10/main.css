@@ -1,0 +1,132 @@
+.header .nav {
+  display: flex;
+  width: 1420px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 6px 10px 4px 10px;
+}
+.header .nav .nav-left {
+  margin-left: 0;
+  padding-left: 0;
+  margin-bottom: 0;
+  width: 42%;
+}
+.header .nav .nav-left a {
+  text-decoration: none;
+  color: #747474;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 0.1px;
+  padding: 8px 0;
+  margin-right: 5px;
+}
+.header .nav .nav-left a:hover {
+  color: black;
+}
+.header .nav .nav-right {
+  margin-left: 0;
+  padding-left: 0;
+  margin-bottom: 0;
+  width: 58%;
+}
+.header .nav .nav-right a {
+  text-decoration: none;
+  color: #747474;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 0.1px;
+  padding: 8px 0;
+  margin-right: 5px;
+}
+.header .nav .nav-right a:hover {
+  color: black;
+}
+.header .header-mid {
+  display: flex;
+  width: 1420px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.header .header-mid .header-mid-left {
+  width: 42%;
+  display: flex;
+  align-items: center;
+}
+.header .header-mid .header-mid-left .search {
+  margin-left: 30px;
+}
+.header .header-mid .header-mid-left .search input {
+  left: 0;
+  width: 100%;
+  height: 50px;
+  padding: 15px 30px 15px 10px;
+  border: none;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  z-index: 5;
+}
+.header .header-mid .header-mid-left .search .fa-search {
+  color: black;
+}
+.header .header-mid .header-mid-left .search .fa-search:hover {
+  color: red;
+}
+.header .header-mid .header-mid-right {
+  display: flex;
+  align-items: center;
+  width: 58%;
+}
+.header .header-mid .header-mid-right .fa-mobile-alt {
+  color: black;
+}
+.header .header-mid .header-mid-right .phone {
+  margin-right: 10px;
+}
+.header .header-mid .header-mid-right .vl {
+  border-left: 2px solid black;
+  height: 35px;
+  margin-right: 10px;
+}
+.header .header-mid .header-mid-right .fa-user-circle {
+  color: black;
+  margin-right: 5px;
+}
+.header .header-mid .header-mid-right .user {
+  margin-right: 10px;
+}
+.header .header-mid .header-mid-right .fa-heart {
+  color: black;
+  margin-right: 10px;
+}
+.header .header-mid .header-mid-right .fa-heart:hover {
+  color: red;
+}
+.header .header-mid .header-mid-right .fa-shopping-basket {
+  color: black;
+}
+.header .header-mid .header-mid-right .fa-shopping-basket:hover {
+  color: red;
+}
+.header .header-bottom .nav-bottom {
+  width: 1420px;
+  height: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #f3f3f3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px 0 10px;
+}
+.header .header-bottom .nav-bottom a {
+  text-decoration: none;
+  color: #3e3e3e;
+  font-size: 18px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.header .header-bottom .nav-bottom a:hover {
+  color: #c82128;
+  background-color: white;
+}/*# sourceMappingURL=main.css.map */

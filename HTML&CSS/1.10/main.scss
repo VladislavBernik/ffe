@@ -1,0 +1,149 @@
+@mixin text-form {
+  text-decoration: none;
+  color: #3e3e3e;
+  font-size: 18px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+@mixin text-dec {
+  text-decoration: none;
+  color: #747474;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 0.1px;
+  padding: 8px 0;
+  margin-right: 5px;
+}
+.header {
+  .nav {
+    display: flex;
+    width: 1420px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 6px 10px 4px 10px;
+
+    .nav-left {
+      margin-left: 0;
+      padding-left: 0;
+      margin-bottom: 0;
+      width: 42%;
+
+      a {
+        @include text-dec();
+
+        &:hover {
+          color: black;
+        }
+      }
+    }
+    .nav-right {
+      margin-left: 0;
+      padding-left: 0;
+      margin-bottom: 0;
+      width: 58%;
+      a {
+        @include text-dec();
+
+        &:hover {
+          color: black;
+        }
+      }
+    }
+  }
+  .header-mid {
+    display: flex;
+    width: 1420px;
+    margin-right: auto;
+    margin-left: auto;
+
+    .header-mid-left {
+      width: 42%;
+      display: flex;
+      align-items: center;
+
+      .search {
+        margin-left: 30px;
+
+        input {
+          left: 0;
+          width: 100%;
+          height: 50px;
+          padding: 15px 30px 15px 10px;
+          border: none;
+          font-size: 14px;
+          letter-spacing: 0.3px;
+          z-index: 5;
+        }
+        .fa-search {
+          color: black;
+
+          &:hover {
+            color: red;
+          }
+        }
+      }
+    }
+    .header-mid-right {
+      display: flex;
+      align-items: center;
+      width: 58%;
+
+      .fa-mobile-alt {
+        color: black;
+      }
+      .phone {
+        margin-right: 10px;
+      }
+      .vl {
+        border-left: 2px solid black;
+        height: 35px;
+        margin-right: 10px;
+      }
+      .fa-user-circle {
+        color: black;
+        margin-right: 5px;
+      }
+      .user {
+        margin-right: 10px;
+      }
+      .fa-heart {
+        color: black;
+        margin-right: 10px;
+
+        &:hover {
+          color: red;
+        }
+      }
+      .fa-shopping-basket {
+        color: black;
+
+        &:hover {
+          color: red;
+        }
+      }
+    }
+  }
+  .header-bottom {
+    .nav-bottom {
+      width: 1420px;
+      height: 50px;
+      margin-right: auto;
+      margin-left: auto;
+      background: #f3f3f3;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 10px 0 10px;
+
+      a {
+        @include text-form;
+
+        &:hover {
+          color: #c82128;
+          background-color: white;
+        }
+      }
+    }
+  }
+}
