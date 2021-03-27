@@ -14,7 +14,7 @@
 .page {
   width: 1875px;
   height: 1080px;
-  background-image: url(/images/back.jpg);
+  background-image: url(/images/back.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -302,7 +302,7 @@
 }
 .create-game-label {
   display: flex;
-  border: 1px solid darkgrey;
+  border: 1px solid #4a4d50;
 }
 .create-button {
   width: 465px;
@@ -341,9 +341,11 @@
   text-shadow: 0 0 10px #fdcb0c;
 }
 .select-mode {
-  background-color: rgba(169, 169, 169, 0.3);
-  border-right: 1px solid darkgrey;
-  border-left: 1px solid darkgrey;
+  background: rgba(29, 32, 36, 0.6);
+  mix-blend-mode: normal;
+  backdrop-filter: blur(20px);
+  border-right: 1px solid #4a4d50;
+  border-left: 1px solid #4a4d50;
 }
 .select-mode-text {
   font-family: "Open Sans", sans-serif;
@@ -361,7 +363,7 @@
   background: #1b1d21;
   border-radius: 3px;
   margin: 54px 0 0 21px;
-  border: 2px solid darkgray;
+  border: 2px solid #4a4d50;
 }
 .first-mode:hover {
   background-image: url(/images/mode-back.png);
@@ -388,7 +390,7 @@
   background: #1b1d21;
   border-radius: 3px;
   margin: 54px 0 0 18px;
-  border: 2px solid darkgray;
+  border: 2px solid #4a4d50;
 }
 .second-mode:hover {
   background-image: url(/images/mode-back.png);
@@ -427,7 +429,7 @@
   background: #1b1d21;
   border-radius: 3px;
   margin: 54px 0 0 18px;
-  border: 2px solid darkgray;
+  border: 2px solid #4a4d50;
 }
 .third-mode:hover {
   background-image: url(/images/mode-back.png);
@@ -468,8 +470,10 @@
   margin: -6px 0 0 2px;
 }
 .make-bet {
-  background-color: rgba(169, 169, 169, 0.3);
-  border: 1px solid darkgray;
+  background: rgba(29, 32, 36, 0.6);
+  mix-blend-mode: normal;
+  backdrop-filter: blur(20px);
+  border: 1px solid #4a4d50;
 }
 .make-bet-text {
   margin: 18px 0 0 21px;
@@ -484,7 +488,7 @@
 .first-bet {
   width: 78px;
   height: 53px;
-  border: 2px solid darkgray;
+  border: 2px solid #4a4d50;
   margin: 56px 0 0 22px;
   background: #1b1d21;
   border-radius: 3px;
@@ -501,7 +505,7 @@
 .second-bet {
   width: 78px;
   height: 53px;
-  border: 2px solid darkgray;
+  border: 2px solid #4a4d50;
   margin: 56px 0 0 22px;
   background: #1b1d21;
   border-radius: 3px;
@@ -518,7 +522,7 @@
 .third-bet {
   width: 78px;
   height: 53px;
-  border: 2px solid darkgray;
+  border: 2px solid #4a4d50;
   margin: 56px 0 0 22px;
   background: #1b1d21;
   border-radius: 3px;
@@ -535,7 +539,7 @@
 .four-bet {
   width: 78px;
   height: 53px;
-  border: 2px solid darkgray;
+  border: 2px solid #4a4d50;
   margin: 56px 0 0 22px;
   background: #1b1d21;
   border-radius: 3px;
