@@ -13,6 +13,7 @@
   width: 1875px;
   height: 1080px;
   background: rgba(29, 32, 36, 0.9);
+  background-image: url(/images/back.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -373,8 +374,10 @@
   margin: 11px 0 0 43px;
   font-size: 14px;
 }
-.svg-1 {
-  margin: 27px 0 0 33px;
+.first-mode > img{
+  margin: 27px 0 7px 37px;
+  width: 60px;
+  height: 55px;
 }
 .ready {
   font-size: 12px;
