@@ -14,7 +14,7 @@
 .page {
   width: 1875px;
   height: 1080px;
-  background-image: url(/images/back.png);
+  background: rgba(29, 32, 36, 0.9);
   background-repeat: no-repeat;
   background-size: cover;
 }
