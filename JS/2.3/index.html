@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homework №1</title>
+    <meta charset="utf8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <form name="formPrice">
+      <p><input class="car" type="radio" name="field" value="0.01"/>Легковые</p>
+      <p><input class="electro" type="radio" name="field" value="0.007"/>Электро</p>
+      <p><input class="moto" type="radio" name="field" value="0.012"/>Мото</p>
+      <p><input class="truck" type="radio" name="field" value="0.03"/>Грузовые</p>
+      <label>
+        Цена авто
+        <br />
+        <span>
+          <input class="price" name="price" type="number" step="1" />
+        </span>
+      </label>
+      <br />
+      <select class="year" name="year">
+        <option>2000</option>
+        <option>2001</option>
+        <option>2002</option>
+        <option>2003</option>
+        <option>2004</option>
+        <option>2005</option>
+        <option>2006</option>
+        <option>2007</option>
+        <option>2008</option>
+        <option>2009</option>
+        <option>2010</option>
+        <option>2011</option>
+        <option>2012</option>
+        <option>2013</option>
+        <option>2014</option>
+        <option>2015</option>
+        <option>2016</option>
+        <option>2017</option>
+        <option>2018</option>
+        <option>2019</option>
+        <option>2020</option>
+        <option selected="">2021</option>
+      </select>
+      <br />
+      <button class="btn" type="submit">Посчитать</button>
+    </form>
+    <div class="result">Цена: <span class="res"></span></div>
+    <script src="/main.js"></script>
+  </body>
+</html>
