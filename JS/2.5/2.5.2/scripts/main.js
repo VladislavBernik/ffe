@@ -1,5 +1,5 @@
 let btn = document.querySelector(".btn");
-let result = document.querySelector(".result");
+const result = document.querySelector(".result");
 let person = [
   {
     name: "Vladislav",
@@ -80,10 +80,16 @@ let person = [
     name: "Yaroslav",
     surname: "Yaroslav",
     hw: "4",
-  }
+  },
 ];
 
 btn.addEventListener("click", (ev) => {
-  console.log(person);
-  result.innerHTML = person;
+  for (const test of person) {
+    console.log(test);
+
+    const html =
+      '<form> ${test} <input type="hidden" name="test" value="${test}" /></form>';
+
+    result.insertAdjacentHTML("beforeend", html);
+  }
 });
