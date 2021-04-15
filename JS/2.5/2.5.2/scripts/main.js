@@ -1,3 +1,5 @@
+let btn = document.querySelector(".btn");
+let result = document.querySelector(".result");
 let person = [
   {
     name: "Vladislav",
@@ -78,6 +80,10 @@ let person = [
     name: "Yaroslav",
     surname: "Yaroslav",
     hw: "4",
-  },
+  }
 ];
-console.log(person);
+
+btn.addEventListener("click", (ev) => {
+  console.log(person);
+  result.innerHTML = person;
+});
