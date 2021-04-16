@@ -80,7 +80,7 @@ let person = [
     name: "Yaroslav",
     surname: "Yaroslav",
     hw: "4",
-  },
+  }
 ];
 
 btn.addEventListener("click", (ev) => {
