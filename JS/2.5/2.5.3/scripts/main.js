@@ -1,5 +1,5 @@
 let btn = document.querySelector(".btn");
-const result = document.querySelector(".result");
+const container = document.querySelector('.container')
 let person = [
   {
     name: "Vladislav",
@@ -84,10 +84,23 @@ let person = [
 ];
 
 btn.addEventListener("click", (ev) => {
+  ev.preventDefault();
+
   const filterPerson = person.filter((persons) => {
     return persons.hw > 7;
   });
 
-  console.log(filterPerson);
-  result.innerHTML = filterPerson;
+  for(const arr of filterPerson){
+    const html = ` 
+      <div>
+        <div>Имя: ${arr['name']}</div>
+        <div>Фамилия: ${arr['surname']}</div>
+        <div>ДЗ: ${arr['hw']}</div>
+        <br>
+      </div>
+    `;
+
+    console.log(arr);
+    container.insertAdjacentHTML('beforeEnd', html);
+  }
 });

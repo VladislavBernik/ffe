@@ -1,5 +1,5 @@
 let btn = document.querySelector(".btn");
-const result = document.querySelector(".result");
+const container = document.querySelector('.container')
 let person = [
   {
     name: "Vladislav",
@@ -84,12 +84,19 @@ let person = [
 ];
 
 btn.addEventListener("click", (ev) => {
-  for (const test of person) {
-    console.log(test);
+  ev.preventDefault();
 
-    const html =
-      '<form> ${test} <input type="hidden" name="test" value="${test}" /></form>';
+  for(const arr of person){
+    const html = ` 
+      <div>
+        <div>Имя: ${arr['name']}</div>
+        <div>Фамилия: ${arr['surname']}</div>
+        <div>ДЗ: ${arr['hw']}</div>
+        <br>
+      </div>
+    `;
 
-    result.insertAdjacentHTML("beforeend", html);
+    console.log(arr);
+    container.insertAdjacentHTML('beforeEnd', html);
   }
 });
