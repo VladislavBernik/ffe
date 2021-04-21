@@ -1,7 +1,7 @@
 const btnPow = document.querySelector(".power");
 const btnSqrt = document.querySelector(".sqrts");
-const container = document.querySelector(".container");
-const res = document.querySelector(".res");
+const resPow = document.querySelector(".resPow");
+const resSqrt = document.querySelector(".resSqrt");
 const firstNum = document.querySelector(".firstNum");
 const stepen = document.querySelector(".stepen");
 const koren = document.querySelector(".koren");
@@ -11,7 +11,7 @@ btnPow.addEventListener("click", (ev) => {
     return Math.pow(firstNum.value, stepen.value);
   };
 
-  res.innerHTML = powFunc();
+  resPow.innerHTML = powFunc();
 });
 
 btnSqrt.addEventListener("click", (ev) => {
@@ -19,5 +19,5 @@ btnSqrt.addEventListener("click", (ev) => {
     return Math.pow(firstNum.value, 1 / koren.value);
   };
 
-  res.innerHTML = sqrtFunc().toFixed(3);
+  resSqrt.innerHTML = sqrtFunc().toFixed(3);
 });
