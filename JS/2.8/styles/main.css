@@ -1,0 +1,15 @@
+.table td {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.buttons button {
+  width: 25px;
+  height: 25px;
+}
+.buttons .arrowUp, .buttons .arrowDown, .buttons .arrowRight, .buttons .arrowLeft {
+  background-color: gray;
+}
+.buttons .active {
+  background-color: yellow;
+}/*# sourceMappingURL=main.css.map */
