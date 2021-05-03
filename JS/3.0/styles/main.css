@@ -1,15 +1,8 @@
-.table td {
-  border: 1px solid black;
-  padding: 20px;
+.main {
+  background-color: gold;
+  color: white;
+  border: 5px dotted beige;
 }
-
-.buttons button {
-  width: 25px;
-  height: 25px;
-}
-.buttons .arrowUp, .buttons .arrowDown, .buttons .arrowRight, .buttons .arrowLeft {
-  background-color: gray;
-}
-.buttons .active {
-  background-color: yellow;
+.main .container {
+  letter-spacing: 0.2px;
 }/*# sourceMappingURL=main.css.map */
