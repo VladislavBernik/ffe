@@ -3,7 +3,7 @@ const fio = {
   secondName: "Berdnikov",
   lastName: "Vitaliyevich",
 
-  get FIO() {
+  get fullName() {
     const fio1 =
       "Имя: " +
       this.firstName +
@@ -17,4 +17,4 @@ const fio = {
   },
 };
 
-console.log(fio.FIO);
+console.log(fio.fullName);
