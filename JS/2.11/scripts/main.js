@@ -2,10 +2,10 @@ const test = () => {
   const ingridients = [
     { id: "e88", name: "картошка", alergen: false, kkal: 100 },
     { id: "08a", name: "лук", alergen: true, kkal: 200 },
-    { id: "a0b", name: "шкварки", alergen: false, kkal: 300 },
+    { id: "a0b", name: "шкварки", alergen: true, kkal: 300 },
     { id: "0dd", name: "бульйон", alergen: false, kkal: 400 },
-    { id: "d12", name: "морковка", alergen: true, kkal: 500 },
-    { id: "8a1", name: "оливковая олия", alergen: false, kkal: 600 },
+    { id: "d12", name: "морковка", alergen: false, kkal: 500 },
+    { id: "8a1", name: "оливковая олия", alergen: true, kkal: 600 },
   ];
 
   const result = {
@@ -32,11 +32,5 @@ function getSum(arr) {
   return sum;
 }
 
-const func = ingridients.filter((ing) => {
-
-  if (ing.alergen === true) {
-    console.log(getSum(ingridients));
-  }
-});
-
-
+const func = ingridients.filter((ing) => ing.alergen === true);
+console.log(getSum(func));
