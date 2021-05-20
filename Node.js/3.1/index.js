@@ -1,7 +1,7 @@
 const moment = require("moment");
+const momentRange = require("moment-precise-range-plugin");
 
-let years = moment().diff("2000-07-29", "years");
-let months = moment().diff("2020-07-29", "months");
-let days = moment().diff("2021-04-29", "days");
+let birthDate = moment("07/29/2000", "MM/DD/YYYY");
+let birth = moment.preciseDiff(birthDate, moment());
 
-console.log(years + " years " + months + " months " + days + " days");
+console.log(birth);
