@@ -1,5 +1,4 @@
 const cpus = require("./cpuInfo.js");
 
-cpus.cpuModel;
-cpus.cpuSpeed; 
-
+cpus.cpuModel();
+cpus.cpuSpeed();
