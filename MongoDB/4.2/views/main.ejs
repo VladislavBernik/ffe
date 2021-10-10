@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+    <form name="findInfo" class="findArt">
+        <label>Book</label>
+        <input name="articleTitle" placeholder="Enter title">
+        <label>Author</label>
+        <input name="authorBook" placeholder="Enter author">
+        <label>Genre</label>
+        <select type="text" class="genreBook" name="genreBook" multiple size="3" placeholder="Genre">
+        </select>
+        
+        <button type="submit">Find</button>
+    </form>
+    <div class="findInform hidden"></div>
+    
+
+    <div class="clientResult">
+        <table class="booksList">
+            <tr><th>Book name</th><th>Author</th><th>Genre</th></tr>
+        </table>
+    </div>
+    
+
+    <script src="mainClientSide.js"></script>
+</body>
+</html>
